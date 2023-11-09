@@ -265,7 +265,7 @@ export default function Home() {
                       </div>
                     </button>
                     <div className="flex relative mt-2">
-                      <div className="w-[8px] border-[0.5px] border-dotted absolute border-[#1FA45B] inset-y-0 left-[24px] w-0"></div>
+                      <div className="w-[0.5px] border-[0.5px] border-dotted absolute border-[#1FA45B] inset-y-0 left-[24px] w-0"></div>
                       <div>
                         {activeCat === cat.id && subcats.length > 0
                           ? subcats.map((subcat) => (
